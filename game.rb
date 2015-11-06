@@ -48,7 +48,9 @@ class Game
 end
 
 if $PROGRAM_NAME == __FILE__
-  b = Board.new(10)
-  david = Player.new('David')
-  Game.new(david, b).run
+  puts("Hi let's play! Type in your grid size.")
+  size = gets.chomp
+  b = Board.new(size.to_i)
+  player = Player.new('player')
+  Game.new(player, b).run
 end

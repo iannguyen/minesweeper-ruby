@@ -14,6 +14,7 @@ class Board
   end
 
   def render
+    system("clear")
     print '    '
     (0..grid.length - 1).each do |num|
       print "#{num.to_s.colorize(:yellow)}  "

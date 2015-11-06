@@ -24,10 +24,6 @@ class Player
     else
       false
     end
-    # return false if move.length != 5
-    # return false if move.split.length != 2
-    # return false if parse_move(move)[0] != "R" || parse_move(move)[0] != "F"
-    # true
   end
 
   def parse_move(move)
