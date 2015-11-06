@@ -3,7 +3,8 @@
 A recreation of the classic game Minesweeper written in Ruby for the terminal.
 
 ![screenshot]
-[screenshot]: [minesweeper.png]
+
+[screenshot]: ./minesweeper.png
 
 ### Setup
 
