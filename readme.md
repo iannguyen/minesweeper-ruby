@@ -2,8 +2,8 @@
 
 A recreation of the classic game Minesweeper written in Ruby for the terminal.
 
-![screenshot][screen]
-[screen][minesweeper.png]
+![screenshot]
+[screenshot][minesweeper.png]
 
 ### Setup
 
